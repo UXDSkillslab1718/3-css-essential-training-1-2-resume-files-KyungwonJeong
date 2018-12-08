@@ -1,0 +1,56 @@
+/*Color Palette
+#596979 Cool Grey
+#a5a5a5 Light Grey
+#0292cf Blue
+#69c6ee Sky Blue
+#ffffff White
+*/
+
+
+/* Global styles
+-------------------------*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2 {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 30px;
+}
+a {
+	color: #69c6ee;
+}
+a:hover {
+	text-decoration: none;
+}
+
+
+/* Header and Footer
+-------------------------*/
+header, footer {
+	background: #596979;
+	color: #a5a5a5;
+}
+header h1, header h2 {
+	color: black;
+}
+
+
+/* My Works
+-------------------------*/
+.work {
+	background: #a5a5a5;
+}
+
+/* Education
+-------------------------*/
+.education {
+	background: #0292cf
+}
+
