@@ -1,0 +1,107 @@
+/*Color Palette
+#596979 Cool Grey
+#a5a5a5 Light Grey
+#0292cf Blue
+#69c6ee Sky Blue
+#ffffff White
+*/
+
+
+/* Global styles
+-------------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+h1, h2 {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 30px;
+	margin-top: 0;
+}
+h3 {
+	margin: 0;
+}
+a {
+	color: #69c6ee;
+}
+a:hover {
+	text-decoration: none;
+}
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: auto;
+}
+.col-narrow {
+	width: 30%;
+	float: left;
+	min-height: 175px;
+}
+.col-wide {
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+	min-height: 175px;
+	/*margin: 25px;*/
+}
+.uppercase {
+	text-transform: uppercase;
+}
+/* Header and Footer
+-------------------------*/
+header, footer {
+	background: #596979;
+	color: #a5a5a5;
+}
+/* header */
+.profile-img {
+	/*width: 300px;*/
+	border-radius: 50%;
+	/*float: left;
+	margin-right: 30px;*/
+	margin-top: 40px;
+}
+header h1, header h2 {
+	color: black;
+	/*margin: 0;*/
+}
+header p {
+	margin-top: 50px;
+}
+/* footer */
+footer {
+	text-align: center;
+}
+
+/* My Works
+-------------------------*/
+.work {
+	background: #a5a5a5;
+}
+h3 ~ p {
+	margin: 0;
+}
+
+/* Education
+-------------------------*/
+.education {
+	background: #0292cf
+}
+p + h3 {
+	margin-top: 30px;
+}
